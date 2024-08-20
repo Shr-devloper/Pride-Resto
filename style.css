@@ -1,0 +1,690 @@
+body {
+    overflow-x: hidden;
+}
+
+.PrideRestocontainer {
+    height: 110vh;
+    width: 100vw;
+    background: url(Assets/images/img-1.jpg);
+    background-attachment: fixed;
+    opacity: 1;
+
+}
+
+.heading {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(185, 184, 181);
+}
+
+.heading h2 {
+    font-family: cinzel, serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.heading h1 {
+    font-family: cinzel, serif;
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+.history {
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pridehistory img {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.panelhistory {
+    margin-top: 100px;
+    /* padding-left: 550px; */
+    position: absolute;
+}
+
+.panelhistory h2 {
+    padding-left: 370px;
+    font-size: 70px;
+    color: white;
+}
+
+.panelhistory h1 {
+    padding-left: 550px;
+    font-size: 30px;
+    color: white;
+}
+
+.panelhistory .historyline {
+    margin-left: 600px;
+    padding-left: 120px;
+    display: flex;
+    width: 1px;
+    height: 2px;
+    color: black;
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+
+.panelhistory p {
+    color: aliceblue;
+    padding: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.panelhistory .readbtn {
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 28px;
+    margin-left: 540px;
+    /* padding-left: 30px; */
+    width: 180px;
+    height: 20px;
+    font-weight: bolder;
+    color: rgb(83 66 42);
+    font-size: 20px;
+    border: 1px solid #b28d62;
+    /* background-color: aliceblue; */
+}
+
+.panelhistory .readbtn:hover {
+    background-color: white;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+/* .panelhistory h1{
+    position: absolute;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    justify-content: center; */
+
+.Pridehero {
+    position: relative;
+    display: flex;
+    height: 82vh;
+    width: 100vw;
+}
+
+.left {
+    position: relative;
+    width: 50vw;
+    height: 90vh;
+    border: 1px solid black;
+
+}
+
+.left img {
+    position: absolute;
+    width: 50vw;
+    height: 90vh;
+    border: 1px solid black;
+
+}
+
+.right {
+    position: relative;
+    width: 50vw;
+    height: 90vh;
+    border: 1px solid black;
+
+}
+
+.right img {
+    position: absolute;
+    width: 50vw;
+    height: 90vh;
+    border: 1px solid black;
+}
+
+.righth1 {
+
+    width: 360px;
+    padding: 130px;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: wheat;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.lefth1 {
+    padding: 140px;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: wheat;
+    font-weight: 900;
+    font-size: 30px;
+    width: 330px;
+}
+.lefth1 h1{
+    margin-left: 35px;
+    width: 300px;
+}
+.righth1 h1{
+    margin-left: -40px;
+    width: 450px;
+}
+.lefthero {
+    width: 50vw;
+    height: 90vh;
+}
+
+.rightline {
+    background-color: rgb(210, 206, 206);
+    margin-left: 0px;
+    padding-top: 100px;
+    position: absolute;
+    display: inline;
+    width: 1px;
+    height: 1px;
+    border: 1px solid rgb(186, 186, 186);
+}
+
+.leftline {
+    background-color: black;
+    margin-left: 0px;
+    padding-top: 90px;
+    position: absolute;
+    display: inline;
+    width: 1px;
+    height: 1px;
+    border: 1px solid rgb(234, 220, 220);
+    background-color: rgb(253, 240, 240);
+}
+
+.rightbtn {
+    font-size: 30px;
+    color: beige;
+    margin-top: 50px;
+    display: flex;
+    width: 280px;
+    height: 50px;
+    /* background-color: white; */
+    margin-left: -130px;
+    padding-top: 3px;
+    padding: 20px;
+    border: 1px solid grey;
+    text-decoration: white;
+}
+
+.rightbtn a {
+    text-decoration: none;
+}
+
+.leftbtn {
+    font-size: 32px;
+    border: 1px solid grey;
+    color: beige;
+    margin-top: 20px;
+    display: flex;
+    width: 230px;
+    height: 50px;
+    /* background-color: white; */
+    margin-left: -110px;
+    padding: 18px;
+    text-align: center;
+    align-items: center;
+}
+
+.leftbtn:hover {
+    font-size: 34px;
+    color: rgb(146, 132, 107);
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.rightbtn:hover {
+    font-size: 32px;
+    color: rgb(146, 132, 107);
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.specialfood {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: rgb(236, 230, 221)
+}
+
+.foodcontainer {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items in mobile view */
+}
+.foodcontainer .foodleft,
+.foodcontainer .foodright,
+.foodcontainer .foodmiddle1,
+.foodcontainer .foodmiddle2 {
+    flex: 1 1 45%; /* Flex items to grow and shrink, with a base size */
+    margin: 10px;
+}
+
+
+.foodcontainer h1 {
+    color: #f1a277;
+    margin-left: 340px;
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Cinzel, serif;
+}
+
+.foodcontainer .foodline {
+    margin-left: 600px;
+    padding-left: 120px;
+    display: flex;
+    width: 1px;
+    height: 2px;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(222, 177, 147);
+}
+
+.fooddivison {
+    padding-top: 20px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.foodcontainer .foodleft {
+    display: inline;
+    position: relative;
+    width: 23vw;
+    height: 100vh;
+    border: 1px solid rgb(236, 230, 221);
+}
+
+.foodleft img {
+    padding: 10px;
+    width: 22vw;
+    height: 60vh;
+}
+
+.foodleft p {
+    padding: 10px;
+    color: rgb(58, 28, 28);
+    font-family: Cinzel, serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.foodleftline {
+    margin-left: 10px;
+    width: 21vw;
+    height: 1px;
+    display: flex;
+    border: 1px solid rgb(81, 50, 50);
+    background-color: rgb(81, 50, 50);
+}
+
+.foodleftmoney {
+    padding: 20px;
+    font-size: 24px;
+    margin-left: 110px;
+}
+
+.foodcontainer .foodleft:hover {
+    background-color: azure;
+    font-size: 22px;
+}
+
+.foodcontainer .foodright {
+    position: relative;
+    width: 23vw;
+    height: 100vh;
+    border: 1px solid rgb(236, 230, 221);
+}
+
+.foodcontainer .foodright:hover {
+    background-color: azure;
+    font-size: 22px;
+}
+
+.foodright img {
+    padding: 10px;
+    width: 22vw;
+    height: 60vh;
+}
+
+.foodright p {
+    padding: 10px;
+    color: rgb(58, 28, 28);
+    font-family: Cinzel, serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.foodrightline {
+    margin-left: 10px;
+    width: 21vw;
+    height: 1px;
+    display: flex;
+    border: 1px solid rgb(81, 50, 50);
+    background-color: rgb(81, 50, 50);
+}
+
+.foodcontainer .foodmiddle1 {
+    position: relative;
+    width: 23vw;
+    height: 100vh;
+    border: 1px solid rgb(236, 230, 221);
+}
+
+.foodcontainer .foodmiddle1:hover {
+    background-color: azure;
+    font-size: 22px;
+}
+
+.foodmiddle1 img {
+    padding: 10px;
+    width: 22vw;
+    height: 60vh;
+}
+
+.foodmiddle1 p {
+    padding: 10px;
+    color: rgb(58, 28, 28);
+    font-family: Cinzel, serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.foodmiddle1line {
+    margin-left: 10px;
+    width: 21vw;
+    height: 1px;
+    display: flex;
+    border: 1px solid rgb(81, 50, 50);
+    background-color: rgb(81, 50, 50);
+}
+
+.foodcontainer .foodmiddle2 {
+    position: relative;
+    width: 23vw;
+    height: 100vh;
+    border: 1px solid rgb(236, 230, 221);
+}
+
+.foodcontainer .foodmiddle2:hover {
+    background-color: azure;
+    font-size: 22px;
+}
+
+.foodmiddle2 img {
+    padding: 10px;
+    width: 22vw;
+    height: 60vh;
+}
+
+.foodmiddle2 p {
+    padding: 10px;
+    color: rgb(58, 28, 28);
+    font-family: Cinzel, serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.foodmiddle2line {
+    margin-left: 10px;
+    width: 21vw;
+    height: 1px;
+    display: flex;
+    border: 1px solid rgb(81, 50, 50);
+    background-color: rgb(81, 50, 50);
+}
+
+.foodknowmore {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    color: #b28d62;
+    border: 1px solid rgb(236, 230, 221);
+    margin: 20px;
+    margin-left: 46vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.foodknowmore a {
+    text-decoration: none;
+    position: absolute;
+}
+
+.foodknowmore:hover {
+    text-decoration: none;
+    color: #8e6f4b;
+    background-color: white;
+    font-size: 27px;
+}
+
+.foodcontainer .foodlineend {
+    margin-top: 30px;
+    margin-left: 90px;
+    padding-left: 85vw;
+    display: flex;
+    width: 1px;
+    height: 1.5px;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(77, 77, 77);
+}
+
+.gallery {
+    position: relative;
+    height: 130vh;
+    width: 100vw;
+    background-color: #ece6dd;
+}
+
+.photogallery {
+    display: flex;
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    background-color: #f1e3cf;
+}
+
+.galleryleft {
+    margin-top: 150px;
+    width: 40vw;
+    height: 30vh;
+
+}
+
+.galleryleft img {
+    width: 50vw;
+    height: 50vh;
+}
+
+.galleryleft img:hover {
+    opacity: 0.9;
+}
+
+.gallerymiddle {
+    margin-top: 150px;
+    width: 20vw;
+    height: 50vh;
+    background-color: #b28d62;
+}
+
+.gallerymiddle h1 {
+    font-size: 50px;
+    margin-top: 16vh;
+    padding: 10px;
+}
+
+.photogallery .gallerymiddle h1:hover {
+    font-size: 53px;
+    opacity: 0.3;
+}
+
+.photogallery .gallerymiddle:hover {
+    background-color: #d3a878;
+    opacity: 0.9;
+}
+
+.galleryright img {
+    margin-top: 150px;
+    width: 40vw;
+    height: 100vh;
+
+}
+
+.galleryright img:hover {
+    opacity: 0.7;
+}
+
+.photogallery2 {
+    position: absolute;
+}
+
+.galleryright2 img {
+    margin-top: 470px;
+    width: 60.2vw;
+    height: 50vh;
+}
+
+.galleryright2 img:hover {
+    opacity: 0.7;
+}
+.Pridehero {
+    height: auto; /* Let the height adjust based on content */
+}
+
+.left, .right {
+    width: 100%; /* Full width on small screens */
+}
+
+
+
+/* General Mobile Styles */
+@media (max-width: 568px) {
+
+    .heading h2,
+    .heading h1 {
+        font-size: 30px;
+        /* Adjust sizes for mobile */
+    }
+
+    .PrideRestocontainer {
+        height: auto;
+        /* Adjust height for mobile */
+    }
+
+    .history,
+    .Pridehero,
+    .specialfood,
+    .gallery {
+        height: auto;
+        /* Adjust height for mobile */
+    }
+
+    .panelhistory {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .foodcontainer {
+        flex-direction: column;
+        /* Stack food items vertically */
+        align-items: center;
+    }
+
+    .foodcontainer .foodleft,
+    .foodcontainer .foodright,
+    .foodcontainer .foodmiddle1,
+    .foodcontainer .foodmiddle2 {
+        width: 90vw;
+        /* Make food items full-width on small screens */
+        height: auto;
+        /* Adjust height for content */
+    }
+
+    .foodleft img,
+    .foodright img,
+    .foodmiddle1 img,
+    .foodmiddle2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .foodknowmore {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Pridehero {
+        flex-direction: column;
+        /* Stack hero sections vertically */
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        height: auto;
+        border: none;
+        /* Remove border for mobile */
+    }
+
+    .left img,
+    .right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .galleryleft img,
+    .galleryright img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallerymiddle {
+        width: 90vw;
+        height: auto;
+        margin: 0 auto;
+        /* Center gallery middle */
+    }
+
+    .gallerymiddle h1 {
+        font-size: 30px;
+        /* Adjust font size for mobile */
+    }
+
+    .photogallery2 .galleryright2 img {
+        width: 100%;
+        height: auto;
+    }
+}

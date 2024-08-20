@@ -1,0 +1,158 @@
+body{
+    display: flexbox;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.menucontainer{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url(Assets/images/img-3.png);
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+.heading h1{
+    font-size: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    color: aliceblue;
+    font-family: cinzel, serif;
+    line-height: 140px;
+    font-weight: 400;
+    font-style: normal;
+}
+.maincourse{
+    position: relative;
+    height: 400vh;
+    width: 100vw;
+    background-color: beige;
+}
+.maincourse .mainline{
+    margin-top: 100px;
+    position: absolute;
+    display: flex;
+    height: 1px;
+    width: 1px;
+    margin-left: 580px;
+    padding-left: 120px;
+    border: 1px solid black;
+    background-color: rgb(46, 18, 18);
+}
+.maincourse h1{
+    margin-left: 530px;
+    margin-top: 120px;
+    display: flex;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Cinzel, serif;
+    line-height: 100px;
+}
+.fooditemline{
+    margin-top: 100px;
+    position: absolute;
+    display: flex;
+    height: 1px;
+    width: 1px;
+    margin-left: 100px;
+    padding-left: 80vw;
+    border: 1px solid rgb(75, 75, 75);
+    background-color: rgb(106, 101, 101);
+}
+.fooditems{
+    height: 5vh;
+    width: 80vw;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.fooditems img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.itemname{
+    margin-left: 20px;
+}
+
+.itemname h2{
+    font-size: 30px;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-family: cinzel, serif;
+}
+.itemname h3{
+    font-size: 20px;
+    color: rgb(104, 99, 99);
+    font-style: normal;
+    font-weight: 400;
+    font-family: cinzel, serif;
+}
+.itemmoney{
+    margin-left: 300px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.specialline h1{
+    font-size: 50px;
+    margin-top: 00px;
+    position: relative;
+    padding: 50px;
+    margin-left: 460px;
+    background-color: beige;
+}
+
+.mainline1{
+    margin-top: 350px;
+    position: relative;
+    display: flex;
+    height: 1px;
+    width: 1px;
+    margin-left: 580px;
+    padding-left: 120px;
+    border: 1px solid black;
+    background-color: rgb(46, 18, 18);
+}
+.specialitem{
+    height: 5vh;
+    width: 80vw;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.specialitem img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.itemname1{
+    margin-left: 20px;
+}
+
+.itemname1 h2{
+    font-size: 30px;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-family: cinzel, serif;
+}
+.itemname1 h3{
+    font-size: 20px;
+    color: rgb(104, 99, 99);
+    font-style: normal;
+    font-weight: 400;
+    font-family: cinzel, serif;
+}
+.itemmoney1{
+    margin-left: 300px;
+    font-size: 30px;
+    margin-top: 40px;
+}

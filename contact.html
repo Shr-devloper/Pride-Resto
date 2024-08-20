@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - History-Pride Resto</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   
+    <div id="navbar-container"> </div>
+    
+    <main>
+        <section class="contact">
+            <div class="contact-container">
+                <h1>Contact Us</h1>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h2>Address</h2>
+                        <p>123 Heritage Lane, Citytown, Country</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h2>Phone</h2>
+                        <p>(123) 456-7890</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h2>Email</h2>
+                        <p><a href="mailto:info@historypride.com">info@historypride.com</a></p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h2>Hours</h2>
+                        <p>Monday - Friday: 9 AM - 5 PM</p>
+                        <p>Saturday: 10 AM - 4 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Optional: Add a map here -->
+        <!-- <section class="map">
+            <h2>Find Us</h2>
+            <div id="map"></div>
+        </section> -->
+    </main>
+
+    <footer>
+        <!-- Include your footer here -->
+    </footer>
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script> -->
+    <script src="contact.js"></script> <!-- Optional if using a script for map initialization -->
+</body>
+</html>
